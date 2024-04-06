@@ -10,6 +10,8 @@ import lombok.*;
 @NoArgsConstructor
 public class SuiteTypesDTO {
 
+    private Integer id;
+
     private String name;
 
     private String description;

@@ -12,7 +12,7 @@ public class CitiesEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "codigo", nullable = false)
+    @Column(name = "codigo")
     private Integer id;
 
     @Column(name = "nombre")

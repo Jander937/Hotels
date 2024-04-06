@@ -44,6 +44,9 @@ public class UserEntity {
     @Column(name = "estado", columnDefinition = "TINYINT")
     private Boolean status;
 
+    @Column(name = "role")
+    private String role;
+
     @ManyToOne
     @JoinColumn (name = "tbl_tipos_documento_id")
     private DocumentTypesEntity documentTypesEntity;

@@ -9,6 +9,7 @@ import lombok.ToString;
 @ToString
 public class HotelDTO {
 
+    private Integer id;
 
     private String neighborhood;
 

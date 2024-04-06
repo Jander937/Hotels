@@ -10,6 +10,8 @@ import java.sql.Timestamp;
 @ToString
 public class ObservationDTO {
 
+    private Integer id;
+
     private Integer type;
 
     private String observation;
